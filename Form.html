@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="Form.css" />
+  </head>
+  <body>
+    <section>
+      <div class="circle">
+        <div class="arrow"><a href="Novus.html">&leftarrow;</a></div>
+      </div>
+      <main>
+        <div class="individual">
+          <img src="Asset/Logo.png" alt="Logo" width="20%" />
+          <h1>For Individuals</h1>
+          <p>
+            Start benefitting from the wellness experience. For <br />
+            companies looking on increasing productivity, and improving <br />
+            organization wellness.
+          </p>
+        </div>
+
+        <!-- The form  -->
+
+        <div>
+          <form action="">
+            <div class="names">
+              <div>
+                <label for="Firstname">Firstname</label>
+                <br />
+                <input type="text" />
+              </div>
+              <div>
+                <label for="Lastname">Lastname</label>
+                <br />
+                <input type="text" />
+              </div>
+            </div>
+            <!-- Gender and date of birth -->
+            <div class="Gender-dob">
+              <div>
+                <label for="Gender">Gender</label>
+                <br />
+                <select name="Gender" id="Gender">
+                  <option value="0">Select here</option>
+                  <option value="1">Male</option>
+                  <option value="2">Female</option>
+                </select>
+              </div>
+              <div>
+                <label for="Dateofbirth">Date of Birth</label>
+                <br />
+                <input type="date" />
+              </div>
+            </div>
+            <!--  -->
+            <div class="Weight-height">
+              <div>
+                <label for="Weight">Weight (KG)</label>
+                <br />
+                <input type="number" placeholder="Enter weight" />
+              </div>
+              <div>
+                <label for="Lastname">Height (CM)</label>
+                <br />
+                <input type="number" placeholder="Enter height here" />
+              </div>
+            </div>
+            <!--  -->
+            <div class="Activity">
+              <label for="Activity">Activity Level</label>
+              <br />
+              <select name="Activity" id="Activity">
+                <option value="0">Select here</option>
+                <option value="1">...</option>
+                <option value="2">...</option>
+                <option value="3">...</option>
+              </select>
+            </div>
+            <!--  -->
+            <div class="Password">
+              <label for="password">Password</label>
+              <br />
+              <input type="password" />
+            </div>
+            <!--  -->
+            <button type="submit">Register</button>
+            <p class="termsofuse">
+              By clicking register, you agree to our
+              <a href="">Terms of Use</a> and our <a href="">Privacy Policy</a>
+            </p>
+          </form>
+        </div>
+      </main>
+    </section>
+  </body>
+</html>
