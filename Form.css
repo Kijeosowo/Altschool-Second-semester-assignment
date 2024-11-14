@@ -4,37 +4,29 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.circle {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  margin-top: 1%;
-  margin-left: 5%;
-  float: left;
-}
-
-.circle:hover {
-  transition: ease-in 0.6s;
+nav {
   background-color: #2ec4b6;
+  padding: 1rem;
 }
 
-.arrow a:hover {
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
   color: white;
-}
-
-.arrow {
-  font-size: 1.5rem;
-  font-weight: 900;
-}
-
-.arrow a {
   text-decoration: none;
-  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+nav ul li a:hover {
+  color: #0b6c62;
+  transition: ease-in 0.5s;
 }
 
 main {
@@ -255,9 +247,5 @@ button {
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
     padding-right: 0.4rem;
-  }
-
-  .circle {
-    margin-top: -25%;
   }
 }
